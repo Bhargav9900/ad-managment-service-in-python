@@ -350,9 +350,9 @@ def new_reg():
                 em.grid(row=13,column=0)
                 em_en.grid(row=13,column=1)
                 def send_mail():
-                    sender_email = "bhargavbechara18@gnu.ac.in"
+                    sender_email = "your email"
                     receiver_email = em_en.get()
-                    password = "gnu09092000"
+                    password = "your email password"
 
                     message = MIMEMultipart("alternative")
                     message["Subject"] = "Thank you for using our services!!!!!"
